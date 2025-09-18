@@ -5,7 +5,6 @@ export default defineNuxtConfig({
 
   css: [
     "~/assets/css/main.css",
-    "@fortawesome/fontawesome-free/css/all.css",
     "@fortawesome/fontawesome-free/css/all.min.css",
   ],
 
@@ -28,7 +27,7 @@ export default defineNuxtConfig({
     "@nuxt/test-utils",
     "@nuxt/ui",
     "@pinia/nuxt",
-    "@nuxtjs/tailwindcss",
+    "@nuxtjs/tailwindcss", // ✅ Official Tailwind module
   ],
 
   runtimeConfig: {
