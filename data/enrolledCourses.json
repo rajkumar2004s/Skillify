@@ -1,0 +1,16 @@
+[
+  {
+    "id": "45c8c3b3-8ca8-4744-8290-fdbe61dcbfef",
+    "title": "Java Programming",
+    "description": "Comprehensive Java course covering basics, OOP, Spring Boot, and building apps.",
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1owGvAclsed1m-gQhyMykCXbwKvYPEs5eQA&s",
+    "price": 119,
+    "mrp": 499,
+    "rating": 4.8,
+    "professor": "Programming with Mosh",
+    "createdAt": "2025-09-11",
+    "videoUrl": "https://youtu.be/eIrMbAQSU34?si=1QcU67bx4l75gPqK",
+    "enrolled": true,
+    "details": "This course offers a deep dive into Java programming, starting from the fundamentals and progressing to advanced topics. You'll learn about object-oriented programming (OOP) principles, data structures, and algorithms. The course also covers popular frameworks like Spring Boot for building robust web applications. By the end of the course, you'll have hands-on experience creating real-world projects and a solid understanding of Java development best practices."
+  }
+]
