@@ -1,12 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from "@tailwindcss/vite";
-
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  vite: {
-    plugins: [tailwindcss()],
-  },
+
   css: [
     "~/assets/css/main.css",
     "@fortawesome/fontawesome-free/css/all.min.css",
@@ -31,6 +27,7 @@ export default defineNuxtConfig({
     "@nuxt/test-utils",
     "@nuxt/ui",
     "@pinia/nuxt",
+    "@nuxtjs/tailwindcss", // ✅ Official Tailwind module
   ],
 
   runtimeConfig: {
